@@ -1,7 +1,9 @@
 # Cloudflare Pages: que los datos del catálogo siempre se lean frescos
 /js/equipos-data.js
   Cache-Control: no-cache
+  Content-Type: application/javascript; charset=utf-8
 /js/app.js
   Cache-Control: no-cache
+  Content-Type: application/javascript; charset=utf-8
 /css/*
   Cache-Control: no-cache
