@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gm-maquinarias.gmmaquinarias.workers.dev/sitemap.xml
