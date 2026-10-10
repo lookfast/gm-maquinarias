@@ -13,6 +13,7 @@ content:
     type: collection
     path: content/equipos
     format: json
+    filename: "{primary}.json"
     view:
       primary: nombre
       fields: [nombre, precio, moneda, vendido, visible]
