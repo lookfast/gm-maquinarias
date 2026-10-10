@@ -1,0 +1,46 @@
+{
+  "nombre": "Monotolva 22 toneladas",
+  "categoria": "tolvas",
+  "tipo": "Monotolva",
+  "visible": true,
+  "vendido": false,
+  "destacado": false,
+  "enPortada": false,
+  "orden": 20,
+  "etiqueta": "Tape rápido",
+  "moneda": "ARS",
+  "precio": 28000000,
+  "precioFinanciado": null,
+  "resumen": "Monotolva de 22 toneladas con tape rápido. Se vende sin balanza.",
+  "datos": [
+    {
+      "dato": "Capacidad",
+      "valor": "22 toneladas"
+    },
+    {
+      "dato": "Descarga",
+      "valor": "Tape rápido"
+    },
+    {
+      "dato": "Balanza",
+      "valor": "No incluida"
+    },
+    {
+      "dato": "IVA",
+      "valor": "Parcialmente incluido"
+    }
+  ],
+  "puntos": [
+    "22 t",
+    "Tape rápido",
+    "Sin balanza"
+  ],
+  "fotos": [
+    "/img/monotolva-22-4.jpg",
+    "/img/monotolva-22-2.jpg",
+    "/img/monotolva-22-1.jpg",
+    "/img/monotolva-22-3.jpg"
+  ],
+  "video": "",
+  "videoPortada": ""
+}

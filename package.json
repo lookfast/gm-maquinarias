@@ -1,0 +1,15 @@
+{
+  "name": "gm-maquinarias",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio de Gastón Martín Maquinarias y Vehículos",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "dependencies": {
+    "sharp": "0.33.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

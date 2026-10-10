@@ -1,0 +1,45 @@
+{
+  "nombre": "Carro playo de 4 toneladas",
+  "categoria": "acoplados",
+  "tipo": "",
+  "visible": true,
+  "vendido": false,
+  "destacado": false,
+  "enPortada": false,
+  "orden": 40,
+  "etiqueta": "",
+  "moneda": "USD",
+  "precio": null,
+  "precioFinanciado": null,
+  "resumen": "Carro playo de cuatro ruedas con capacidad para 4 toneladas y barandas volcables, ideal para mover rollos, bolsas o herramientas en el campo.",
+  "datos": [
+    {
+      "dato": "Capacidad",
+      "valor": "4 toneladas"
+    },
+    {
+      "dato": "Barandas",
+      "valor": "Volcables"
+    },
+    {
+      "dato": "Rodado",
+      "valor": "4 ruedas"
+    },
+    {
+      "dato": "Enganche",
+      "valor": "Lanza para tractor"
+    }
+  ],
+  "puntos": [
+    "4 t de carga",
+    "Barandas volcables"
+  ],
+  "fotos": [
+    "/img/carro-playo-2.jpg",
+    "/img/carro-playo-4.jpg",
+    "/img/carro-playo-1.jpg",
+    "/img/carro-playo-3.jpg"
+  ],
+  "video": "",
+  "videoPortada": ""
+}

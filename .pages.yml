@@ -1,0 +1,156 @@
+# Configuración del panel de carga (Pages CMS — https://pagescms.org)
+# Define qué puede editar Gastón desde el panel y cómo se guarda.
+
+media:
+  input: public/img
+  output: /img
+  rename: safe
+  extensions: [jpg, jpeg, png, webp, mp4]
+
+content:
+  - name: equipos
+    label: Equipos
+    type: collection
+    path: content/equipos
+    format: json
+    view:
+      primary: nombre
+      fields: [nombre, precio, moneda, vendido, visible]
+    fields:
+      - name: nombre
+        label: Nombre del equipo
+        type: string
+        required: true
+        description: "Ej: Mercedes-Benz Actros 2636, Monotolva 22 toneladas"
+      - name: categoria
+        label: Rubro
+        type: select
+        required: true
+        options:
+          values:
+            - name: cosechadoras
+              label: Cosechadoras
+            - name: acoplados
+              label: Acoplados y carros
+            - name: tolvas
+              label: Tolvas
+            - name: cisternas
+              label: Cisternas
+            - name: vehiculos
+              label: Camiones y vehículos
+      - name: tipo
+        label: Tipo (opcional)
+        type: string
+        description: "Palabra que aparece arriba del nombre. Ej: Camión, Monotolva. Si se deja vacío, se usa el rubro."
+      - name: fotos
+        label: Fotos
+        type: image
+        required: true
+        description: "La primera foto es la portada. Se pueden arrastrar para cambiar el orden."
+        options:
+          multiple:
+            max: 30
+      - name: moneda
+        label: Moneda
+        type: select
+        default: ARS
+        options:
+          values:
+            - name: ARS
+              label: Pesos ($)
+            - name: USD
+              label: Dólares (USD)
+      - name: precio
+        label: Precio (sin puntos)
+        type: number
+        description: "Ej: 28000000. Dejar vacío para mostrar 'Consultar precio'."
+      - name: precioFinanciado
+        label: Precio financiado (opcional)
+        type: number
+        description: "Se muestra debajo del precio de contado."
+      - name: etiqueta
+        label: Etiqueta amarilla (opcional)
+        type: string
+        description: "Texto corto sobre la foto. Ej: Reparación total, Llantas nuevas"
+      - name: resumen
+        label: Descripción
+        type: text
+      - name: datos
+        label: Datos técnicos
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{dato}: {valor}"
+        fields:
+          - name: dato
+            label: Dato
+            type: string
+            description: "Ej: Año, Motor, Capacidad"
+          - name: valor
+            label: Valor
+            type: string
+      - name: puntos
+        label: Etiquetas grises de la tarjeta (2 o 3)
+        type: string
+        list:
+          max: 4
+        description: "Ej: Año 2018, 22 t, Tape rápido"
+      - name: video
+        label: Video (opcional)
+        type: file
+        options:
+          extensions: [mp4]
+      - name: videoPortada
+        label: Imagen de portada del video (opcional)
+        type: image
+      - name: destacado
+        label: Destacado (aparece primero en el catálogo)
+        type: boolean
+        default: false
+      - name: enPortada
+        label: Mostrar en la portada de la página
+        type: boolean
+        default: false
+        description: "Marcar solo uno. Es el equipo grande del inicio."
+      - name: vendido
+        label: Vendido
+        type: boolean
+        default: false
+        description: "Lo deja visible con la marca 'Vendido'."
+      - name: visible
+        label: Publicado
+        type: boolean
+        default: true
+        description: "Desmarcar para ocultarlo de la página sin borrarlo."
+      - name: orden
+        label: Orden (opcional)
+        type: number
+        description: "Número más chico = aparece antes. Ej: 10, 20, 30"
+
+  - name: config
+    label: Datos de contacto
+    type: file
+    path: content/config.json
+    format: json
+    fields:
+      - name: whatsapp
+        label: WhatsApp (formato internacional, solo números)
+        type: string
+        description: "Ej: 5492964520884"
+      - name: whatsappVisible
+        label: WhatsApp como se muestra
+        type: string
+        description: "Ej: 2964 520884"
+      - name: ubicacion
+        label: Ubicación
+        type: string
+      - name: provincia
+        label: Provincia
+        type: string
+      - name: mapa
+        label: Link de Google Maps
+        type: string
+      - name: dolarReferencia
+        label: Dólar de referencia (solo para ordenar por precio)
+        type: number

@@ -1,0 +1,47 @@
+{
+  "nombre": "Cisterna de 3.000 litros",
+  "categoria": "cisternas",
+  "tipo": "",
+  "visible": true,
+  "vendido": false,
+  "destacado": false,
+  "enPortada": false,
+  "orden": 50,
+  "etiqueta": "Llantas nuevas",
+  "moneda": "USD",
+  "precio": null,
+  "precioFinanciado": null,
+  "resumen": "Cisterna de 3.000 litros sobre chasis de cuatro ruedas con llantas nuevas. Incluye tanque de agua.",
+  "datos": [
+    {
+      "dato": "Capacidad",
+      "valor": "3.000 litros"
+    },
+    {
+      "dato": "Llantas",
+      "valor": "4, nuevas"
+    },
+    {
+      "dato": "Accesorios",
+      "valor": "Tanque de agua"
+    },
+    {
+      "dato": "Video",
+      "valor": "Disponible en la galería"
+    }
+  ],
+  "puntos": [
+    "3.000 L",
+    "4 llantas nuevas",
+    "Tanque de agua"
+  ],
+  "fotos": [
+    "/img/cisterna-3000-5.jpg",
+    "/img/cisterna-3000-1.jpg",
+    "/img/cisterna-3000-2.jpg",
+    "/img/cisterna-3000-3.jpg",
+    "/img/cisterna-3000-4.jpg"
+  ],
+  "video": "/img/cisterna-3000-video.mp4",
+  "videoPortada": "/img/cisterna-3000-video-poster.jpg"
+}

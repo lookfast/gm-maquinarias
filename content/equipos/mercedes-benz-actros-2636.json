@@ -1,0 +1,59 @@
+{
+  "nombre": "Mercedes-Benz Actros 2636",
+  "categoria": "vehiculos",
+  "tipo": "Camión",
+  "visible": true,
+  "vendido": false,
+  "destacado": true,
+  "enPortada": false,
+  "orden": 10,
+  "etiqueta": "Modelo 2018",
+  "moneda": "ARS",
+  "precio": 100000000,
+  "precioFinanciado": 143000000,
+  "resumen": "Camión Mercedes-Benz Actros 2636, año 2018.",
+  "datos": [
+    {
+      "dato": "Marca",
+      "valor": "Mercedes-Benz"
+    },
+    {
+      "dato": "Modelo",
+      "valor": "Actros 2636"
+    },
+    {
+      "dato": "Año",
+      "valor": "2018"
+    },
+    {
+      "dato": "Financiación",
+      "valor": "Disponible"
+    }
+  ],
+  "puntos": [
+    "Año 2018",
+    "Actros 2636",
+    "Mercedes-Benz"
+  ],
+  "fotos": [
+    "/img/actros-2636-1.jpg",
+    "/img/actros-2636-5.jpg",
+    "/img/actros-2636-3.jpg",
+    "/img/actros-2636-17.jpg",
+    "/img/actros-2636-14.jpg",
+    "/img/actros-2636-15.jpg",
+    "/img/actros-2636-10.jpg",
+    "/img/actros-2636-13.jpg",
+    "/img/actros-2636-16.jpg",
+    "/img/actros-2636-4.jpg",
+    "/img/actros-2636-12.jpg",
+    "/img/actros-2636-8.jpg",
+    "/img/actros-2636-6.jpg",
+    "/img/actros-2636-9.jpg",
+    "/img/actros-2636-2.jpg",
+    "/img/actros-2636-7.jpg",
+    "/img/actros-2636-11.jpg"
+  ],
+  "video": "",
+  "videoPortada": ""
+}

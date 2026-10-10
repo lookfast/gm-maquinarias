@@ -1,0 +1,49 @@
+{
+  "nombre": "Cisterna de 5.000 litros",
+  "categoria": "cisternas",
+  "tipo": "",
+  "visible": true,
+  "vendido": false,
+  "destacado": false,
+  "enPortada": false,
+  "orden": 60,
+  "etiqueta": "Llantas duales",
+  "moneda": "USD",
+  "precio": null,
+  "precioFinanciado": null,
+  "resumen": "Cisterna de 5.000 litros con llantas duales, baulera para herramientas y tanque de agua.",
+  "datos": [
+    {
+      "dato": "Capacidad",
+      "valor": "5.000 litros"
+    },
+    {
+      "dato": "Llantas",
+      "valor": "Duales"
+    },
+    {
+      "dato": "Accesorios",
+      "valor": "Baulera y tanque de agua"
+    },
+    {
+      "dato": "Video",
+      "valor": "Disponible en la galería"
+    }
+  ],
+  "puntos": [
+    "5.000 L",
+    "Llantas duales",
+    "Baulera"
+  ],
+  "fotos": [
+    "/img/cisterna-5000-5.jpg",
+    "/img/cisterna-5000-3.jpg",
+    "/img/cisterna-5000-1.jpg",
+    "/img/cisterna-5000-2.jpg",
+    "/img/cisterna-5000-4.jpg",
+    "/img/cisterna-5000-6.jpg",
+    "/img/cisterna-5000-7.jpg"
+  ],
+  "video": "/img/cisterna-5000-video.mp4",
+  "videoPortada": "/img/cisterna-5000-video-poster.jpg"
+}
