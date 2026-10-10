@@ -1,0 +1,10 @@
+// Configuración de Cloudflare (Workers con archivos estáticos)
+// Publica la carpeta public/ y habilita la dirección gm-maquinarias.<cuenta>.workers.dev
+{
+  "name": "gm-maquinarias",
+  "compatibility_date": "2025-09-01",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./public"
+  }
+}
