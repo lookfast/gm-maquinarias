@@ -1,16 +1,20 @@
 {
   "nombre": "Don Roque 125",
   "categoria": "cosechadoras",
-  "tipo": "",
-  "visible": true,
-  "vendido": false,
-  "destacado": true,
-  "enPortada": true,
-  "orden": 30,
-  "etiqueta": "Reparación total realizada",
+  "fotos": [
+    "/img/don-roque-125-9.jpg",
+    "/img/don-roque-125-1.jpg",
+    "/img/don-roque-125-5.jpg",
+    "/img/don-roque-125-2.jpg",
+    "/img/don-roque-125-3.jpg",
+    "/img/don-roque-125-4.jpg",
+    "/img/don-roque-125-6.jpg",
+    "/img/don-roque-125-7.jpg",
+    "/img/don-roque-125-8.jpg"
+  ],
   "moneda": "USD",
   "precio": 26000,
-  "precioFinanciado": null,
+  "etiqueta": "Reparación total realizada",
   "resumen": "Cosechadora modelo 1999 con motor Perkins turbo y cabezal maicero de 8 surcos. Tiene reparación total hecha y está lista para trabajar.",
   "datos": [
     {
@@ -35,17 +39,9 @@
     "Perkins turbo",
     "Maicero 8 surcos"
   ],
-  "fotos": [
-    "/img/don-roque-125-9.jpg",
-    "/img/don-roque-125-1.jpg",
-    "/img/don-roque-125-5.jpg",
-    "/img/don-roque-125-2.jpg",
-    "/img/don-roque-125-3.jpg",
-    "/img/don-roque-125-4.jpg",
-    "/img/don-roque-125-6.jpg",
-    "/img/don-roque-125-7.jpg",
-    "/img/don-roque-125-8.jpg"
-  ],
-  "video": "",
-  "videoPortada": ""
+  "destacado": true,
+  "enPortada": true,
+  "vendido": false,
+  "visible": true,
+  "orden": 31
 }
