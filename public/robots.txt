@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gm-maquinarias.gmmaquinarias.workers.dev/sitemap.xml
+Sitemap: https://gm-maquinarias.pages.dev/sitemap.xml
