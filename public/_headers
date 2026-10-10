@@ -1,0 +1,7 @@
+# Cloudflare Pages: que los datos del catálogo siempre se lean frescos
+/js/equipos-data.js
+  Cache-Control: no-cache
+/js/app.js
+  Cache-Control: no-cache
+/css/*
+  Cache-Control: no-cache
