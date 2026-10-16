@@ -62,17 +62,17 @@ content:
             - name: USD
               label: Dólares (USD)
       - name: precio
-        label: Precio (sin puntos)
-        type: number
-        description: "Ej: 28000000. Dejar vacío para mostrar 'Consultar precio'."
+        label: Precio
+        type: string
+        description: "Escribilo con puntos, sin el signo. Ej: 100.000.000 o 26.000. Dejar vacío para mostrar 'Consultar precio'."
       - name: notaPrecio
         label: Aclaración del precio (opcional)
         type: string
         description: "Se muestra debajo del precio. Ej: IVA incluido, + IVA, IVA parcialmente incluido"
       - name: precioFinanciado
         label: Precio financiado (opcional)
-        type: number
-        description: "Se muestra debajo del precio de contado."
+        type: string
+        description: "Con puntos, sin el signo. Ej: 143.000.000. Se muestra debajo del precio de contado."
       - name: etiqueta
         label: Etiqueta amarilla (opcional)
         type: string

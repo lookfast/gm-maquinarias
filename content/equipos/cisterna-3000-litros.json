@@ -9,8 +9,8 @@
   "orden": 50,
   "etiqueta": "Llantas nuevas",
   "moneda": "USD",
-  "precio": null,
-  "precioFinanciado": null,
+  "precio": "",
+  "precioFinanciado": "",
   "resumen": "Cisterna de 3.000 litros sobre chasis de cuatro ruedas con llantas nuevas. Incluye tanque de agua.",
   "datos": [
     {

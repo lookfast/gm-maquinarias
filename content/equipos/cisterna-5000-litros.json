@@ -9,8 +9,8 @@
   "orden": 60,
   "etiqueta": "Llantas duales",
   "moneda": "USD",
-  "precio": null,
-  "precioFinanciado": null,
+  "precio": "",
+  "precioFinanciado": "",
   "resumen": "Cisterna de 5.000 litros con llantas duales, baulera para herramientas y tanque de agua.",
   "datos": [
     {

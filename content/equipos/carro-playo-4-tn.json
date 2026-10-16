@@ -9,8 +9,8 @@
   "orden": 40,
   "etiqueta": "",
   "moneda": "USD",
-  "precio": null,
-  "precioFinanciado": null,
+  "precio": "",
+  "precioFinanciado": "",
   "resumen": "Carro playo de cuatro ruedas con capacidad para 4 toneladas y barandas volcables, ideal para mover rollos, bolsas o herramientas en el campo.",
   "datos": [
     {

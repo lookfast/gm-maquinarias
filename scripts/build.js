@@ -25,6 +25,13 @@ const leerJSON = f => JSON.parse(fs.readFileSync(f, "utf8"));
 const rel = p => String(p || "").trim().replace(/^\/+/, "");
 const existe = p => p && fs.existsSync(path.join(PUBLIC, p));
 const num = v => (v === "" || v == null || isNaN(Number(v)) ? null : Number(v));
+// Precios: acepta "100.000.000", "$ 100.000.000", "USD 26.000" o 100000000
+const precioNum = v => {
+  if (v === "" || v == null) return null;
+  if (typeof v === "number") return v;
+  const limpio = String(v).replace(/[^\d,]/g, "").replace(",", ".");
+  return limpio === "" || isNaN(Number(limpio)) ? null : Number(limpio);
+};
 const avisos = [];
 
 async function prepararFoto(src) {
@@ -79,8 +86,8 @@ async function main() {
       vendido: !!d.vendido,
       orden: num(d.orden) ?? 999,
       etiqueta: d.vendido ? "Vendido" : (d.etiqueta || null),
-      precio: num(d.precio),
-      precioFinanciado: num(d.precioFinanciado),
+      precio: precioNum(d.precio),
+      precioFinanciado: precioNum(d.precioFinanciado),
       notaPrecio: String(d.notaPrecio || "").trim(),
       moneda: d.moneda === "ARS" ? "ARS" : "USD",
       resumen: d.resumen || "",
