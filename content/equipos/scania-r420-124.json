@@ -1,0 +1,29 @@
+{
+  "nombre": "Scania r420 124",
+  "categoria": "vehiculos",
+  "tipo": "frontal con equipo hidraulico ",
+  "fotos": [
+    "/img/whatsapp-image-2026-10-16-at-14115-pm-2.jpeg",
+    "/img/whatsapp-image-2026-10-16-at-14115-pm-3.jpeg",
+    "/img/whatsapp-image-2026-10-16-at-14116-pm-3.jpeg",
+    "/img/whatsapp-image-2026-10-16-at-14113-pm-1-1.jpeg",
+    "/img/whatsapp-image-2026-10-16-at-14116-pm-2.jpeg"
+  ],
+  "moneda": "USD",
+  "precio": "64.000 ",
+  "resumen": "Scaia r420 124 año 2006 frontal con equipo hidraulico. Tractor",
+  "datos": [
+    {
+      "dato": "Modelo",
+      "valor": "2006"
+    },
+    {
+      "dato": "Equipo",
+      "valor": "Hidraulico"
+    }
+  ],
+  "destacado": true,
+  "enPortada": true,
+  "vendido": false,
+  "visible": true
+}
