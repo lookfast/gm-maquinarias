@@ -10,6 +10,7 @@
   "etiqueta": "Modelo 2018",
   "moneda": "ARS",
   "precio": 100000000,
+  "notaPrecio": "IVA incluido",
   "precioFinanciado": 143000000,
   "resumen": "Camión Mercedes-Benz Actros 2636, año 2018.",
   "datos": [

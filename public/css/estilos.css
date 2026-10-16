@@ -425,3 +425,9 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .badge--vendido { background: var(--asfalto); color: var(--papel); }
 .tarjeta--vendida .tarjeta__foto img { filter: grayscale(.85); opacity: .8; }
 .tarjeta--vendida .precio { text-decoration: line-through; color: var(--apagado); }
+
+/* Aclaración del precio (IVA incluido, + IVA, etc.) */
+.tarjeta__precio { display: grid; gap: 2px; min-width: 0; }
+.nota-precio { font-size: .82rem; font-weight: 600; color: var(--monte); letter-spacing: .01em; }
+.ficha__precio .nota-precio { font-size: .95rem; margin-top: 4px; }
+.barra-movil .nota-precio { font-size: .75rem; }

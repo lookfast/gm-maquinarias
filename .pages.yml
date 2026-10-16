@@ -65,6 +65,10 @@ content:
         label: Precio (sin puntos)
         type: number
         description: "Ej: 28000000. Dejar vacío para mostrar 'Consultar precio'."
+      - name: notaPrecio
+        label: Aclaración del precio (opcional)
+        type: string
+        description: "Se muestra debajo del precio. Ej: IVA incluido, + IVA, IVA parcialmente incluido"
       - name: precioFinanciado
         label: Precio financiado (opcional)
         type: number

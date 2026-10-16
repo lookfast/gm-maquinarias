@@ -10,6 +10,7 @@
   "etiqueta": "Tape rápido",
   "moneda": "ARS",
   "precio": 28000000,
+  "notaPrecio": "IVA parcialmente incluido",
   "precioFinanciado": null,
   "resumen": "Monotolva de 22 toneladas con tape rápido. Se vende sin balanza.",
   "datos": [
@@ -24,10 +25,6 @@
     {
       "dato": "Balanza",
       "valor": "No incluida"
-    },
-    {
-      "dato": "IVA",
-      "valor": "Parcialmente incluido"
     }
   ],
   "puntos": [

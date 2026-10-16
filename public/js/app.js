@@ -19,6 +19,7 @@
   const fmtPrecio = e => ((e.moneda || "USD") === "ARS" ? "$ " : "USD ") + e.precio.toLocaleString("es-AR");
   const enPesos = e => e.precio == null ? null : ((e.moneda || "USD") === "ARS" ? e.precio : e.precio * (window.DOLAR_REFERENCIA || 1));
   const tipoDe = e => e.tipo || CATS[e.categoria].singular;
+  const notaPrecioHTML = e => (e.notaPrecio && e.precio != null ? `<small class="nota-precio">${esc(e.notaPrecio)}</small>` : "");
   const precioHTML = (e, cls = "") =>
     e.precio != null
       ? `<span class="precio ${cls}">${fmtPrecio(e)}</span>`
@@ -129,7 +130,7 @@
         <h3 class="tarjeta__nombre">${esc(e.nombre)}</h3>
         <ul class="puntos">${e.puntos.map(p => `<li>${esc(p)}</li>`).join("")}</ul>
         <div class="tarjeta__pie">
-          ${precioHTML(e)}
+          <span class="tarjeta__precio">${precioHTML(e)}${notaPrecioHTML(e)}</span>
           <span class="tarjeta__ver" aria-hidden="true">${icono("i-der")}</span>
         </div>
       </div>
@@ -207,6 +208,7 @@
             <div class="ficha__precio">
               <small>${e.precio != null ? (e.precioFinanciado ? "Precio de contado" : "Precio") : "Precio a convenir"}</small>
               ${precioHTML(e)}
+              ${notaPrecioHTML(e)}
               ${e.precioFinanciado ? `<span class="ficha__financiado">Financiado: <strong>${fmtPrecio({ precio: e.precioFinanciado, moneda: e.moneda })}</strong></span>` : ""}
             </div>
             <p class="ficha__resumen">${esc(e.resumen)}</p>
@@ -228,7 +230,7 @@
         </section>` : ""}
       </article>
       <div class="barra-movil">
-        ${precioHTML(e)}
+        <span class="tarjeta__precio">${precioHTML(e)}${notaPrecioHTML(e)}</span>
         <a class="btn btn--wa" href="${waURL(msgEquipo(e))}" target="_blank" rel="noopener">${icono("i-wa")}Consultar</a>
       </div>`;
 

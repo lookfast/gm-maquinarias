@@ -81,6 +81,7 @@ async function main() {
       etiqueta: d.vendido ? "Vendido" : (d.etiqueta || null),
       precio: num(d.precio),
       precioFinanciado: num(d.precioFinanciado),
+      notaPrecio: String(d.notaPrecio || "").trim(),
       moneda: d.moneda === "ARS" ? "ARS" : "USD",
       resumen: d.resumen || "",
       datos: (d.datos || []).filter(x => x && x.dato).map(x => [String(x.dato), String(x.valor ?? "")]),
