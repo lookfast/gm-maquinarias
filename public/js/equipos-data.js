@@ -20,9 +20,11 @@ window.EQUIPOS = [
     "vendido": false,
     "orden": 10,
     "etiqueta": "Modelo 2018",
-    "precio": 100000000,
-    "precioFinanciado": 143000000,
-    "notaPrecio": "IVA incluido",
+    "precio": 143000000,
+    "precioFinanciado": 100000000,
+    "notaPrecio": "",
+    "etiquetaPrecio": "Contado",
+    "etiquetaPrecio2": "Con IVA incluido",
     "moneda": "ARS",
     "resumen": "Camión Mercedes-Benz Actros 2636, año 2018.",
     "datos": [
@@ -133,6 +135,8 @@ window.EQUIPOS = [
     "precio": 28000000,
     "precioFinanciado": null,
     "notaPrecio": "IVA parcialmente incluido",
+    "etiquetaPrecio": "",
+    "etiquetaPrecio2": "",
     "moneda": "ARS",
     "resumen": "Monotolva de 22 toneladas con tape rápido. Se vende sin balanza.",
     "datos": [
@@ -187,6 +191,8 @@ window.EQUIPOS = [
     "precio": 26000,
     "precioFinanciado": null,
     "notaPrecio": "",
+    "etiquetaPrecio": "",
+    "etiquetaPrecio2": "",
     "moneda": "USD",
     "resumen": "Cosechadora modelo 1999 con motor Perkins turbo y cabezal maicero de 8 surcos. Tiene reparación total hecha y está lista para trabajar.",
     "datos": [
@@ -265,6 +271,8 @@ window.EQUIPOS = [
     "precio": null,
     "precioFinanciado": null,
     "notaPrecio": "",
+    "etiquetaPrecio": "",
+    "etiquetaPrecio2": "",
     "moneda": "USD",
     "resumen": "Carro playo de cuatro ruedas con capacidad para 4 toneladas y barandas volcables, ideal para mover rollos, bolsas o herramientas en el campo.",
     "datos": [
@@ -322,6 +330,8 @@ window.EQUIPOS = [
     "precio": null,
     "precioFinanciado": null,
     "notaPrecio": "",
+    "etiquetaPrecio": "",
+    "etiquetaPrecio2": "",
     "moneda": "USD",
     "resumen": "Cisterna de 3.000 litros sobre chasis de cuatro ruedas con llantas nuevas. Incluye tanque de agua.",
     "datos": [
@@ -387,6 +397,8 @@ window.EQUIPOS = [
     "precio": null,
     "precioFinanciado": null,
     "notaPrecio": "",
+    "etiquetaPrecio": "",
+    "etiquetaPrecio2": "",
     "moneda": "USD",
     "resumen": "Cisterna de 5.000 litros con llantas duales, baulera para herramientas y tanque de agua.",
     "datos": [

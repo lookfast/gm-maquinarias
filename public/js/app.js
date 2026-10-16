@@ -205,12 +205,23 @@
           <aside class="ficha">
             <div class="ficha__cat">${tipoDe(e)}${e.etiqueta ? `<span class="badge">${esc(e.etiqueta)}</span>` : ""}</div>
             <h1 class="ficha__titulo" id="fichaTitulo">${esc(e.nombre)}</h1>
+            ${e.precio != null && e.precioFinanciado ? `
+            <div class="ficha__precio ficha__precio--doble">
+              <div class="ficha__precio-col">
+                <small>${esc(e.etiquetaPrecio || "Precio de contado")}</small>
+                ${precioHTML(e)}
+                ${notaPrecioHTML(e)}
+              </div>
+              <div class="ficha__precio-col">
+                <small>${esc(e.etiquetaPrecio2 || "Financiado")}</small>
+                <span class="precio">${fmtPrecio({ precio: e.precioFinanciado, moneda: e.moneda })}</span>
+              </div>
+            </div>` : `
             <div class="ficha__precio">
-              <small>${e.precio != null ? (e.precioFinanciado ? "Precio de contado" : "Precio") : "Precio a convenir"}</small>
+              <small>${e.precio != null ? esc(e.etiquetaPrecio || "Precio") : "Precio a convenir"}</small>
               ${precioHTML(e)}
               ${notaPrecioHTML(e)}
-              ${e.precioFinanciado ? `<span class="ficha__financiado">Financiado: <strong>${fmtPrecio({ precio: e.precioFinanciado, moneda: e.moneda })}</strong></span>` : ""}
-            </div>
+            </div>`}
             <p class="ficha__resumen">${esc(e.resumen)}</p>
             <dl class="datos">${e.datos.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
             <div class="ficha__acciones">

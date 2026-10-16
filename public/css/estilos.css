@@ -431,3 +431,13 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .nota-precio { font-size: .82rem; font-weight: 600; color: var(--monte); letter-spacing: .01em; }
 .ficha__precio .nota-precio { font-size: .95rem; margin-top: 4px; }
 .barra-movil .nota-precio { font-size: .75rem; }
+
+/* Dos precios lado a lado (ej: contado / con IVA incluido) */
+.ficha__precio--doble { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; padding: 0; }
+.ficha__precio-col { display: grid; gap: 2px; align-content: start; padding: 16px 18px; min-width: 0; }
+.ficha__precio-col + .ficha__precio-col { border-left: 1px solid var(--linea); }
+.ficha__precio--doble .precio { font-size: clamp(1.6rem, 3vw, 2.1rem); line-height: 1; }
+@media (max-width: 380px) {
+  .ficha__precio--doble { grid-template-columns: minmax(0, 1fr); }
+  .ficha__precio-col + .ficha__precio-col { border-left: 0; border-top: 1px solid var(--linea); }
+}

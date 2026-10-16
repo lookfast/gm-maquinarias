@@ -89,6 +89,8 @@ async function main() {
       precio: precioNum(d.precio),
       precioFinanciado: precioNum(d.precioFinanciado),
       notaPrecio: String(d.notaPrecio || "").trim(),
+      etiquetaPrecio: String(d.etiquetaPrecio || "").trim(),
+      etiquetaPrecio2: String(d.etiquetaPrecio2 || "").trim(),
       moneda: d.moneda === "ARS" ? "ARS" : "USD",
       resumen: d.resumen || "",
       datos: (d.datos || []).filter(x => x && x.dato).map(x => [String(x.dato), String(x.valor ?? "")]),

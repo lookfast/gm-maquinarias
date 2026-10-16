@@ -69,10 +69,18 @@ content:
         label: Aclaración del precio (opcional)
         type: string
         description: "Se muestra debajo del precio. Ej: IVA incluido, + IVA, IVA parcialmente incluido"
-      - name: precioFinanciado
-        label: Precio financiado (opcional)
+      - name: etiquetaPrecio
+        label: Texto sobre el precio (opcional)
         type: string
-        description: "Con puntos, sin el signo. Ej: 143.000.000. Se muestra debajo del precio de contado."
+        description: "Ej: Contado. Si se deja vacío dice 'Precio' (o 'Precio de contado' si hay segundo precio)."
+      - name: precioFinanciado
+        label: Segundo precio (opcional)
+        type: string
+        description: "Con puntos, sin el signo. Ej: 100.000.000. Se muestra al lado del precio principal."
+      - name: etiquetaPrecio2
+        label: Texto del segundo precio (opcional)
+        type: string
+        description: "Ej: Con IVA incluido, Financiado. Si se deja vacío dice 'Financiado'."
       - name: etiqueta
         label: Etiqueta amarilla (opcional)
         type: string
