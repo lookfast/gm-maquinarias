@@ -1,0 +1,16 @@
+{
+  "nombre": "Carro",
+  "categoria": "acoplados",
+  "tipo": " Taller",
+  "fotos": [
+    "/img/whatsapp-image-2026-10-20-at-63220-pm-1.jpeg"
+  ],
+  "moneda": "ARS",
+  "precio": "Consultar",
+  "etiqueta": "Nuevo 0km",
+  "resumen": "Carro Taller 0km",
+  "destacado": false,
+  "enPortada": false,
+  "vendido": false,
+  "visible": true
+}
