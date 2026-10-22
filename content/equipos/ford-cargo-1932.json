@@ -1,0 +1,30 @@
+{
+  "nombre": "Ford cargo 1932",
+  "categoria": "vehiculos",
+  "tipo": "Camión cargo",
+  "fotos": [
+    "/img/85483544016377489277607396058647448317239893n.jpg",
+    "/img/85705184517366665740698101623311990967029941n.jpg",
+    "/img/85747142940724540597169976706725128807729129n.jpg",
+    "/img/85666522513649836490445564443415899512373326n.jpg",
+    "/img/85555703011399438718865032098534787409528897n.jpg"
+  ],
+  "moneda": "USD",
+  "precio": "110.000",
+  "notaPrecio": "Consultar",
+  "etiqueta": "18 cubiertas nuevas, con lona nueva y equipo hidraulico.",
+  "resumen": "Camión Ford cargo 1932 año 2014 388.000 km con Batea stoessel ultra liviana (escalable). 18 cubiertas nuevas, con lona nueva y equipo hidraulico. Valor 110.000 dolares. Posible permuta chata en buen estado.",
+  "datos": [
+    {
+      "dato": "Año 2014 388.000 km"
+    }
+  ],
+  "puntos": [
+    "Batea stoessel ultra liviana",
+    "Posible permuta chata en buen estado."
+  ],
+  "destacado": false,
+  "enPortada": false,
+  "vendido": false,
+  "visible": true
+}
