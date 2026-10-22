@@ -1,0 +1,21 @@
+{
+  "nombre": "Carro",
+  "categoria": "acoplados",
+  "tipo": "Taller",
+  "fotos": [
+    "/img/whatsapp-image-2026-10-20-at-63253-pm-1.jpeg"
+  ],
+  "moneda": "ARS",
+  "precio": "Consultar",
+  "etiqueta": "Usado",
+  "resumen": "Carro taller usado. 3 metros de largo, 2 de ancho y 3.20 de alto.",
+  "datos": [
+    {
+      "dato": "3 metros de largo, 2 de ancho y 3.20 de alto."
+    }
+  ],
+  "destacado": false,
+  "enPortada": false,
+  "vendido": false,
+  "visible": true
+}
