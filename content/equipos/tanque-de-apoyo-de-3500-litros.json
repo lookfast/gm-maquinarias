@@ -1,0 +1,13 @@
+{
+  "nombre": "Tanque de apoyo de 3500 litros",
+  "categoria": "acoplados",
+  "fotos": [
+    "/img/whatsapp-image-2026-10-20-at-62949-pm-1.jpeg"
+  ],
+  "moneda": "ARS",
+  "notaPrecio": "Consultar",
+  "destacado": false,
+  "enPortada": false,
+  "vendido": false,
+  "visible": true
+}
