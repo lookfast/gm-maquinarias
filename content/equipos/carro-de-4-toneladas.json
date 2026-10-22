@@ -1,0 +1,15 @@
+{
+  "nombre": "Carro de 4 toneladas",
+  "categoria": "acoplados",
+  "tipo": "Baranda volcable",
+  "fotos": [
+    "/img/whatsapp-image-2026-10-20-at-62952-pm-1-1.jpeg"
+  ],
+  "moneda": "ARS",
+  "precio": "Consultar",
+  "resumen": "Carro verde de 4 toneladas con baranda volcable.",
+  "destacado": false,
+  "enPortada": false,
+  "vendido": false,
+  "visible": true
+}
